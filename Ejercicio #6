@@ -1,0 +1,27 @@
+Ejercicio #6
+s
+Algoritmo promedioEdad
+	
+	suma1 =0
+	suma2 =0
+	p =0
+	t =0
+	
+	para x=1 hasta 100 con paso 1 Hacer
+		Escribir 'Ingrese las edades'
+		leer N
+		
+		Si N>=25 Entonces
+			p = p + 1
+			suma1 = suma1 + p
+		SiNo
+			t = t +1
+			suma2 = suma2 +t
+		Fin Si
+		
+	FinPara
+	Escribir 'El promedio de las edades mayores a 25 años son: ',suma1/p
+	Escribir 'El promedio de las edades menores a 25 años son: ',suma2/t
+	
+	
+FinAlgoritmo
